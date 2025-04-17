@@ -10,6 +10,8 @@ class Bir extends StatefulWidget {
 class _BirState extends State<Bir> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(child: Text("Malikxon", style: TextStyle(fontSize: 20))),
+    );
   }
 }
